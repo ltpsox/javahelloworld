@@ -1,5 +1,5 @@
 FROM java:7
-
+MAINTAINER LTP
 COPY src /home/root/javahelloworld/src
 WORKDIR /home/root/javahelloworld
 RUN mkdir bin
